@@ -33,7 +33,7 @@ To write a C program to read and display an array of 6 integer elements using po
 int main() {
     int i, n;
     int arr[10];
-    int *parr = arr;  // Pointer to the array
+    int *parr = arr; 
     printf("Enter the number of elements (up to 10): ");
     scanf("%d", &n);
     if (n > 10 || n <= 0) {
